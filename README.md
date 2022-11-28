@@ -4,17 +4,16 @@ Smoothing techniques are frequently used to reduce the variability of the observ
 
 ## Introduction
 
--Why do we need smoothing techniques?
+- Why do we need smoothing techniques?
 
-
+- What do we loose if we use smoothing techniques?
 
 ## Kernel Smoothing Methods
 
 ## Smoothing Spline
 
-When fitting a smooth curve to a set of data, what we really want to do is find some function that fits the observed data well: that is, we
-want the residual sum of squares to be small. 
-
+When fitting a function $f(\cdot)$ to a set of data, the first thing that we want is to find some function that fits the observed data well: that is, we
+want the residual sum of squares which measures the goodness of fit, $RSS=\sum_{i=1}^{n} (y_i - f(x_i))^2$, to be small. If this is our only repuirement, then we can even make RSS to zero by simply interpolating all observational data. 
 
 ## Reference
 Gu, Chong. Smoothing spline ANOVA models. Vol. 297. New York: Springer, 2013.
