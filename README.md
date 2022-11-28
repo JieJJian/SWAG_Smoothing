@@ -1,7 +1,11 @@
 # Smoothing Techniques
 
+Smoothing techniques are frequently used to reduce the variability of the observational data and enhance prediction accuracy, while still providing an adequate fit. In this workshop, we will introduce two popular smoothing methods, kernel smoothing and smoothing splines, from their formulations to the computations. Each method has a smoothing parameter that controls the amount of roughness. We will demonstrate how to choose the optimal tuning parameters from the perspective of variance-bias trade-off. Some examples of how to apply the two methods will be provided.
+
 ## Introduction
+
 ## Kernel Smoothing Methods
+
 ## Smoothing Spline
 
 When fitting a smooth curve to a set of data, what we really want to do is find some function that fits the observed data well: that is, we
