@@ -4,6 +4,10 @@ Smoothing techniques are frequently used to reduce the variability of the observ
 
 ## Introduction
 
+-Why do we need smoothing techniques?
+
+
+
 ## Kernel Smoothing Methods
 
 ## Smoothing Spline
